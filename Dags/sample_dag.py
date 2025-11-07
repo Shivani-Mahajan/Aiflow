@@ -14,7 +14,7 @@ with DAG(
     default_args=default_args,
     description='This is our first dag',
     start_date= datetime(2022, 1, 1),
-    schedule=None,
+    schedule="*/5 * * * *",
     #start_date=datetime(2023, 9, 12, 2),
     #schedule_interval='@daily'
     access_control={
