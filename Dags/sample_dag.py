@@ -18,15 +18,8 @@ with DAG(
     #start_date=datetime(2023, 9, 12, 2),
     #schedule_interval='@daily'
     access_control={
-        'role_ashis123': {
-            'can_read',
-            'can_edit',
-            'can_delete'
-        },
-        'role_test': {
-            'can_read',
-            'can_edit',
-            'can_delete'
+        'role_shivaneevm': {
+            'can_read'
         }
 }
 ) as dag: 
