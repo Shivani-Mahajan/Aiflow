@@ -19,6 +19,7 @@ with DAG(
     #schedule_interval='@daily'
     access_control={
         'role_shivaneevm': {
+            'can_read',
             'can_edit'
         }
 }
