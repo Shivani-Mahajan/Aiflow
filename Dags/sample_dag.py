@@ -21,6 +21,9 @@ with DAG(
         'role_shivaneevm': {
             'can_read',
             'can_edit'
+        },
+        'role_rotojeg692':{
+            'can_read'
         }
 }
 ) as dag: 
